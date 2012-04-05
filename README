@@ -1,0 +1,18 @@
+This is hcidump port into Android.
+
+Simply use ndk-build command on the application root and binary executable will be generated into libs/armeabi named hcidump.
+
+Push hcidump into your android mobile using:
+
+adb -d push hcidump /data/local
+
+Go to shell of your android mobile using :
+
+adb -d shell
+
+and cd to /data/local
+
+get superuser permission using: su
+
+then run:
+./hcidump
