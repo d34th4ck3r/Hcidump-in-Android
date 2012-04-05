@@ -1,6 +1,6 @@
 This is hcidump port into Android.
 
-This is build on Ubuntu 11.04 64 bit. If you are using 32 bit operating system you , drop me a message to explain configuration required for that.
+This is build on Ubuntu 11.04 64 bit. If you are using 32 bit operating system , drop me a message to explain configuration required for that.
 
 Simply use ndk-build command on the application root and binary executable will be generated into libs/armeabi named hcidump , or you can directly download it from there in the source code.
 
